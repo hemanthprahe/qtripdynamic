@@ -8,6 +8,7 @@ async function init() {
   if (cities) {
     cities.forEach((key) => {
       addCityToDOM(key.id, key.city, key.description, key.image);
+      
     });
   }
 }
